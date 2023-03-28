@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+img{
+    width: 100%;
+    height: 55vh;
+    object-fit: cover;
+    position: relative;
+    top: 50%
+}
+
+.mainTop .stack{
+    font-family: 'Mukta Mahee', sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 28%;
+
+}
+
+.mainTop .coder{
+    font-family: 'Mukta Mahee', sans-serif;
+    position: absolute;
+    top: 50%;
+    right:15%
+}
+
+.stackCopy, .coderCopy, .stackCopy1, .coderCopy1{
+    display: none;
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+@media (min-width: 1020px){
+    .stack{
+        display: block;
+        position: absolute;
+        top: 48%;
+        left: 28%;
+
+    }
+    .stackCopy {
+        display: block;
+        position: absolute;
+        top: 48%;
+        left: 28%;
+    }
+    .stackCopy1{
+        display: block;
+        position: absolute;
+        top: 52%;
+        left: 28%;
+
+    }
+
+    .coderCopy{
+        display: block;
+        position: absolute;
+        top: 58%;
+        right: 15%;
+    }
+    .coderCopy1{
+        display: block;
+        position: absolute;
+        top: 62%;
+        right: 15%;
+    }
+}
+
+
+
